@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="567.0" prefWidth="900.0" style="-fx-background-color: yellowgreen;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox layoutX="27.0" layoutY="72.0" spacing="30.0">
+         <children>
+            <Label text="National ID:">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="18.0" />
+               </font>
+            </Label>
+            <Label text="Name">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="18.0" />
+               </font>
+            </Label>
+            <Label text="Rate per day">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="18.0" />
+               </font>
+            </Label>
+            <Label text="Monthly salary">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="18.0" />
+               </font>
+            </Label>
+            <Label text="Health insurance:">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="18.0" />
+               </font>
+            </Label>
+            <Label text="Tax deduction:">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="18.0" />
+               </font>
+            </Label>
+            <Label text="Total salary">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <VBox layoutX="170.0" layoutY="66.0" spacing="18.0">
+         <children>
+            <JFXTextField prefHeight="33.0" prefWidth="179.0" style="-fx-background-color: white;" unFocusColor="WHITE">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="18.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField editable="false" prefHeight="33.0" prefWidth="179.0" style="-fx-background-color: white;" unFocusColor="WHITE">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="18.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField editable="false" prefHeight="33.0" prefWidth="179.0" style="-fx-background-color: white;" text="ksh 1200" unFocusColor="WHITE">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="18.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField editable="false" prefHeight="33.0" prefWidth="179.0" style="-fx-background-color: white;" unFocusColor="WHITE">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="18.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField editable="false" prefHeight="33.0" prefWidth="179.0" promptText="ksh 1500" style="-fx-background-color: white;" unFocusColor="WHITE">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="18.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField editable="false" prefHeight="33.0" prefWidth="179.0" promptText="ksh 1800" style="-fx-background-color: white;" unFocusColor="WHITE">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="18.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField editable="false" prefHeight="33.0" prefWidth="179.0" style="-fx-background-color: white;" unFocusColor="WHITE">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="18.0" />
+               </font>
+            </JFXTextField>
+         </children>
+      </VBox>
+      <JFXButton layoutX="421.0" layoutY="66.0" style="-fx-background-color: orange;" text="Verify">
+         <font>
+            <Font name="Microsoft Sans Serif" size="15.0" />
+         </font>
+      </JFXButton>
+      <HBox layoutX="39.0" layoutY="476.0" spacing="15.0">
+         <children>
+            <JFXButton style="-fx-background-color: red;" text="Compute" textFill="WHITE">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="15.0" />
+               </font>
+            </JFXButton>
+            <JFXButton prefHeight="27.0" prefWidth="68.0" style="-fx-background-color: yellow;" text="Clear">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="15.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </HBox>
+      <JFXButton layoutX="771.0" layoutY="519.0" style="-fx-background-color: lightblue;" text="Print receipt">
+         <font>
+            <Font name="Microsoft Sans Serif" size="15.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

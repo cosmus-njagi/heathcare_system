@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="369.0" prefWidth="467.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="133.0" layoutY="8.0" text="Hospital System" textFill="#0400ff">
+         <font>
+            <Font name="Microsoft Sans Serif" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="56.0" layoutY="54.0" prefHeight="99.0" prefWidth="358.0" text="This system is developed for managing and manipulating hospital data." wrapText="true">
+         <font>
+            <Font name="Microsoft Sans Serif" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="104.0" layoutY="165.0" text="Developed by Cosmus Njagi">
+         <font>
+            <Font name="Microsoft Sans Serif" size="17.0" />
+         </font>
+      </Label>
+      <Hyperlink layoutX="225.0" layoutY="253.0" text="www.facebook.com" textFill="#3800ff" underline="true">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="225.0" layoutY="276.0" text="www.linkedin.com" textFill="#1500ff" underline="true">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="225.0" layoutY="299.0" text="www.twitter.com" textFill="#1100ff" underline="true">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Hyperlink>
+      <Label layoutX="104.0" layoutY="225.0" text="Contact me via:">
+         <font>
+            <Font name="Microsoft Sans Serif" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="191.0" layoutY="44.0" text="Version 1.0" textFill="#1200ff">
+         <font>
+            <Font name="Microsoft Sans Serif" size="17.0" />
+         </font>
+      </Label>
+   </children>
+   <effect>
+      <DropShadow />
+   </effect>
+</AnchorPane>
