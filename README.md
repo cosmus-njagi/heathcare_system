@@ -17,3 +17,9 @@ This is a simple health care management system that works with database to store
  #Second window displaying modules
  
  ![screenshot2](https://user-images.githubusercontent.com/74013713/104087806-7dc96780-5273-11eb-8d41-9263dd518354.png)
+ 
+ 
+ #Third window displaying patients with an option of adding, delete or updating
+ 
+ ![screenshot3](https://user-images.githubusercontent.com/74013713/104088017-ca617280-5274-11eb-99e0-f83e3a41391f.png)
+ 
